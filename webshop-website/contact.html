@@ -24,36 +24,50 @@
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-    <h1>Impressions</h1>
+    <h1>Contact Us</h1>
     
     </section>
 
-<!------ impressions ------>
-<section class="impressions">
-    <h1>Some Impressions</h1>
-    <p>Here you can get some impressions from our products currently on stock.</p>
+<!------ Contact us ------>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60880.648643768654!2d-88.2530758144127!3d17.505578100674278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5c584b483377cf%3A0xe1dbdc6e9012ff22!2sBelize%20Stadt%2C%20Belize!5e0!3m2!1sde!2sde!4v1684153641463!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
 
+<section class="contact-us">
     <div class="row">
-        <div class="impressions-column">
-            <img src="images/basket.jpg">
-            <div class="layer">
-                <h3>Basketball</h3>
+        <div class="contact-column">
+            <div>
+                <i class="fa fa-house"></i>   
+                <span>
+                    <h5>Phillip Goldson Hwy, 420 Building</h5>
+                    <p>Belize City, Belize, GT</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+502 420693109</h5>
+                    <p>Monday to Friday, 8AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>info@somebranding.com</h5>
+                    <p>Email us!</p>
+                </span>
             </div>
         </div>
-        <div class="impressions-column">
-            <img src="images/football.jpg">
-            <div class="layer">
-                <h3>Football</h3>
-            </div>
-        </div>
-        <div class="impressions-column">
-            <img src="images/tennis.jpg">
-            <div class="layer">
-                <h3>Tennis</h3>
-            </div>
+        <div class="contact-column">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email adress" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" name="message" class="hero-btn red-btn">Send Message</button>
+            </form>
         </div>
     </div>
-
 </section>
 
 <!------ Footer ------>
@@ -68,9 +82,6 @@
     </div>
     <p>Made with    <i class="fa-regular fa-heart"></i>     by jakwinhub</p>
 </section>
-
-
-
 
 
 <!-------- JavaScript for Toggle Menu ------->
