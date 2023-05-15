@@ -381,3 +381,69 @@ background: transparent;
 .red-btn:hover{
     color: #fff;
 }
+
+/*----- shipping page  -----*/
+.shipping-content{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.shipping-left{
+    flex-basis: 65%;
+    text-align: left;
+}
+.shipping-left img{
+    width: 100%;
+}
+.shipping-left h2{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+}
+.shipping-left p{
+    color: #999;
+    padding: 0;
+}
+.shipping-right{
+    flex-basis: 32%;
+}
+.shipping-right h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.shipping-right div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.faq-box{
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.faq-box h3{
+    text-align: left;
+}
+.faq-form input, .faq-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.faq-form button{
+    margin: 10px 0;
+}
+@media (max-width:700px) {
+    .sub-header h1{
+        font-size: 24px;
+    }
+}
